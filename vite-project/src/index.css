@@ -146,6 +146,8 @@ body {
 }
 .sidebar li:hover {
   background: #333;
+  transform: scale(1.02);
+  transition: all transform 0.3s ease;
 }
 .sidebar li img {
   width: 30px;
